@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6", // Align with Babel's output
+      "module": "commonjs", // Ensure the same module format
+      "jsx": "react", // Align JSX handling
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"]
+  }
+  

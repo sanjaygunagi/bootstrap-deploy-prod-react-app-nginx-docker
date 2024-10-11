@@ -1,0 +1,33 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.x.x",
+    "@babel/preset-env": "^7.x.x",
+    "@babel/preset-react": "^7.x.x",
+    "@babel/preset-typescript": "^7.x.x",
+    "@types/react": "^18.x.x",
+    "@types/react-dom": "^18.x.x",
+    "babel-loader": "^8.x.x",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "react-router-dom": "^6.26.2",
+    "sass": "^1.79.5",
+    "sass-loader": "^16.0.2",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.x.x",
+    "webpack": "^5.x.x",
+    "webpack-cli": "^5.x.x",
+    "webpack-dev-server": "^5.x.x",
+     "react": "^18.x.x",
+    "react-dom": "^18.x.x"
+  }
+
+}
