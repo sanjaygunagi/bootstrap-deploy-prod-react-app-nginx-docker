@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
     entry: './src/index.tsx',
@@ -54,6 +55,13 @@ module.exports = {
                     },
                 ],
             },
+        ],
+    },
+    optimization: {
+        minimize: true, // Enable minimization
+        minimizer: [
+            `...`, // Default minimizer for JS
+            new CssMinimizerPlugin(), // Add CSS minification
         ],
     },
     plugins: [
